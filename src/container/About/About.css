@@ -1,0 +1,20 @@
+.app__aboutus {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-header {
+    margin-bottom: 10vh;
+}
+
+/* @media screen and (min-width: 2000px) {
+
+} 
+
+@media screen and (max-width: 1150px) {
+
+} 
+
+@media screen and (max-width: 650px) {
+
+}  */

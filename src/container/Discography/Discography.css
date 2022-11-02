@@ -1,0 +1,95 @@
+.app__discography {
+    flex-direction: column;
+}
+
+.discography-header {
+    margin-bottom: 6vh;
+}
+
+.albums-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.app__specialMenu-menu_heading {
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.discography-container {
+    display: flex; 
+    flex-direction: row;
+}
+
+.guitar-image {
+    margin: 0%;
+}
+
+.top-songs-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    width: 30vw;
+}
+
+.top-songs-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 30vw;
+}
+
+.album-covers-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    max-width: 100vw;
+}
+
+/* @media screen and (min-width: 2000px) {
+
+} 
+
+@media screen and (max-width: 1150px) {
+
+}  */
+
+@media screen and (max-width: 650px) {
+
+    .album-covers-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .guitar-image {
+        display: none;
+    }
+
+}  
+
+@media screen and (max-width: 950px) {
+
+    .album-covers-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-songs-right {
+        margin-right: 10vw;
+        margin-top: 20vh;
+    }
+
+    .app__specialMenu-menu_heading {
+        margin-bottom: 0%;
+    }
+
+}  

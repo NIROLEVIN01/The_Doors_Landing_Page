@@ -1,0 +1,45 @@
+.artist-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    width: 90%;
+    margin-bottom: 10vh;
+}
+
+.artist-card-img {
+    margin-right: 5vh;
+
+    border-radius: 10px;
+}
+
+.artistRoll {
+    margin-bottom: 5vh;
+}
+
+.artist-btn {
+    margin-top: 3vh;
+}
+
+@media screen and (max-width: 700px) {
+
+    .artist-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    
+        width: 90%;
+        margin-bottom: 10vh;
+    }
+
+    .artist-card-img {
+        margin: 0%;
+    }
+
+    .artist-card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+} 

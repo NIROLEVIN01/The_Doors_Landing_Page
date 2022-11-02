@@ -1,0 +1,11 @@
+.footer {
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footer p {
+    margin-bottom: 5vh;
+    color: var(--color-golden);
+}

@@ -1,0 +1,51 @@
+.albums {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 90%;
+    margin-bottom: 10vh;
+    width: 30vw;
+}
+
+.albums-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.albums-img {
+    position: relative;
+    transition: 0.25s ease-in-out;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.albums-img:hover img {
+    opacity: .35; 
+}
+
+.albums-img:hover > .album-icons {
+    opacity: 1;
+}
+
+.album-icons {
+    position: absolute;
+    opacity: 0;
+}
+
+@media screen and (max-width: 950px) {
+
+    .app__menuitem-name p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}  
+
+
