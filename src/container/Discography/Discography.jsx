@@ -21,6 +21,7 @@ function Discography() {
 
           {data.topSongs1.map((topSongs1, index) => (
             <TopSongs 
+              key={index} 
               title={topSongs1.title} 
               appleUrl={topSongs1.appleUrl}
               spotifyUrl={topSongs1.spotifyUrl}
@@ -39,7 +40,8 @@ function Discography() {
         <div className='top-songs-left'>
 
           {data.topSongs2.map((topSongs2, index) => (
-            <TopSongs 
+            <TopSongs
+              key={index} 
               title={topSongs2.title}
               appleUrl={topSongs2.appleUrl}
               spotifyUrl={topSongs2.spotifyUrl}

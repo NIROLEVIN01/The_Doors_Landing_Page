@@ -3,7 +3,7 @@ import './Gallery.css'
 
 import { images } from '../../constans'; 
 
-import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
+import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 
 
 function Gallery() {
