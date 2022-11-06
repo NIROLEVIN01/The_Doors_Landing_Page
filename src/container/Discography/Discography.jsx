@@ -5,6 +5,8 @@ import { data, images } from '../../constans'
 import AlbumItem from '../../components/AlbumItem/AlbumItem'
 import TopSongs from '../../components/TopSongs/TopSongs'
 
+import { motion } from "framer-motion";
+
 function Discography() {
 
   return (
@@ -31,11 +33,15 @@ function Discography() {
 
         </div>
 
-        <div className='guitar-image'>
+        <motion.div 
+          className='guitar-image box'  
+          whileHover={{ scale: 1.1 }}
+          transition={{ type: "spring", stiffness: 400, damping: 10 }}
+        >
 
           <img src={images.guitar} alt="guitar_img" />
 
-        </div>  
+        </motion.div>  
        
         <div className='top-songs-left'>
 
